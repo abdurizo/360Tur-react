@@ -1,0 +1,33 @@
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.4rem;
+    margin-top: 4.5rem;
+}
+@media(max-width:500px) {
+.cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
+@media(max-width:450px) {
+.cards {
+        grid-template-columns: 60%;
+        justify-content: center;
+    }
+}
+@media(max-width:400px) {
+.cards {
+        grid-template-columns: 80%;
+        justify-content: center;
+        /* align-items: center; */
+    }
+}
+@media(max-width:390px) {
+.cards {
+        grid-template-columns: 70%;
+        justify-content: center;
+        /* align-items: center; */
+    }
+}

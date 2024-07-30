@@ -1,0 +1,117 @@
+.footer {
+    margin-top: 17.4rem !important;
+    background: linear-gradient(180deg, #05071B 0%, #020508 100%);
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #B9BECA;
+    font-family: "WorkSans-SemiBold";
+    font-size: 1.8754rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    gap: 1rem;
+}
+
+.email {
+    border-radius: 1.2rem;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.email input {
+    color: #BDBDBD;
+    background: none;
+    border: none;
+    padding: 1rem 2.3rem;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 1.3544rem;
+    font-style: normal;
+    line-height: 1.667rem;
+}
+
+.email input:focus {
+    outline: none;
+}
+
+.btn {
+    color: #B9BECA;
+    font-family: "Inter-SemiBold";
+    font-size: 1.8rem;
+    font-style: normal;
+    line-height: 2.16rem;
+    letter-spacing: -0.036rem;
+    padding: 1.5rem 3.5rem;
+    border-radius: 1.2rem;
+    background: linear-gradient(103deg, #000B47 0%, #3F5DFF 100%);
+}
+
+.btn:hover {
+    background: linear-gradient(273deg, #000B47 4.17%, #3F5DFF 128.84%);
+}
+
+.line {
+    max-width: 192rem;
+    height: 0.1042rem;
+    opacity: 0.3;
+    background: #B9BECA;
+    margin: 4rem 0;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+    color: #B9BECA;
+    /* font-family: "WorkSans-Medium"; */
+    font-family: "Montserrat-SemiBold";
+    font-size: 1.667rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.info li {
+    margin-bottom: 1.25rem;
+}
+
+.df {
+    display: flex;
+    align-items: center;
+    gap: 0.42rem;
+}
+
+.social_network {
+    display: flex;
+    gap: 3.08rem;
+}
+
+.transport {
+    min-width: 44.8rem;
+}
+
+@media(max-width:992px) {
+    .transport {
+        min-width: 30rem;
+    }
+
+    .social_network {
+        gap: 2rem;
+    }
+}
+
+@media(max-width:500px) {
+    .info{
+        grid-template-columns: 1fr 1fr;
+    }
+}

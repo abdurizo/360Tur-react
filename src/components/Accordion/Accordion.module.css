@@ -1,0 +1,53 @@
+.accordion_wrap {
+    max-width: 85.6rem;
+    margin: 4.5rem auto;
+    height: 33.6rem;
+}
+
+.accordion_item {
+    margin-bottom: 2rem;
+}
+
+.header {
+    position: relative;
+    padding: 2rem 2.5rem;
+    border-radius: 1.2rem;
+    background: #272845;
+    width: 100%;
+    color: #FFF;
+    font-family: "Montserrat-Regular";
+    font-size: 2rem;
+    font-style: normal;
+    line-height: 2.88rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header span {
+    font-size: 2rem !important;
+}
+
+.collapse {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+    /* transform: translateY(-3rem); */
+}
+
+.collapse.open {
+    height: auto;
+    max-height: 999px;
+    transition: all .5s cubic-bezier(1, 0, 1, 0);
+    /* transform: translateY(1rem); */
+}
+
+.body {
+    transition: .5s;
+    padding: 2rem 2.5rem;
+    color: #FFF;
+    font-family: "Inter-Regular";
+    font-size: 1.4rem;
+    font-style: normal;
+    line-height: 1.96rem;
+}

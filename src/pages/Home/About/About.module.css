@@ -1,0 +1,212 @@
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    align-items: center;
+    margin-top: 17.5rem !important;
+}
+
+.title {
+    color: #FFF;
+    font-family: "Montserrat-Bold";
+    font-size: 4rem;
+    font-style: normal;
+    line-height: 5.2rem;
+    letter-spacing: -0.08rem;
+}
+
+.text {
+    color: #FFF;
+    font-family: "Inter-Regular";
+    font-size: 1.6rem;
+    font-style: normal;
+    line-height: 2.56rem;
+    margin-top: 0.8rem;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.button:hover .arrow {
+    transform: translateX(1.5rem);
+    transition: 0.5s;
+    animation: shakeArrowHover 0.5s;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes shakeArrowHover {
+    0% {
+        transform: translateX(2rem)
+    }
+
+    10% {
+        transform: translateX(2rem)
+    }
+
+    20% {
+        transform: translateX(2rem)
+    }
+
+    30% {
+        transform: translateX(1.5rem)
+    }
+
+    35% {
+        transform: translateX(1.5rem)
+    }
+
+    40% {
+        transform: translateX(1.5rem)
+    }
+
+    45% {
+        transform: translateX(1.5rem)
+    }
+
+    50% {
+        transform: translateX(1.5rem)
+    }
+
+    55% {
+        transform: translateX(1.5rem)
+    }
+
+    60% {
+        transform: translateX(1.5rem)
+    }
+
+    65% {
+        transform: translateX(1.5rem)
+    }
+
+    70% {
+        transform: translateX(2rem)
+    }
+
+    75% {
+        transform: translateX(2rem)
+    }
+
+    80% {
+        transform: translateX(2rem)
+    }
+
+    90% {
+        transform: translateX(2rem)
+    }
+
+    95% {
+        transform: translateX(2rem)
+    }
+
+    100% {
+        transform: translateX(2rem)
+    }
+
+}
+
+.arrow {
+    animation: shakeFirstArrow 0.5s;
+    transition: 0.5s;
+}
+
+@keyframes shakeFirstArrow {
+    0% {
+        transform: translateX(0rem)
+    }
+
+    10% {
+        transform: translateX(0rem)
+    }
+
+    20% {
+        transform: translateX(0rem)
+    }
+
+    30% {
+        transform: translateX(0.5rem)
+    }
+
+    35% {
+        transform: translateX(0.5rem)
+    }
+
+    40% {
+        transform: translateX(0.5rem)
+    }
+
+    45% {
+        transform: translateX(0.5rem)
+    }
+
+    50% {
+        transform: translateX(0.5rem)
+    }
+
+    55% {
+        transform: translateX(0.5rem)
+    }
+
+    60% {
+        transform: translateX(0.5rem)
+    }
+
+    65% {
+        transform: translateX(0.5rem)
+    }
+
+    70% {
+        transform: translateX(0rem)
+    }
+
+    75% {
+        transform: translateX(0rem)
+    }
+
+    80% {
+        transform: translateX(0rem)
+    }
+
+    90% {
+        transform: translateX(0rem)
+    }
+
+    95% {
+        transform: translateX(0rem)
+    }
+
+    100% {
+        transform: translateX(0rem)
+    }
+
+}
+
+.button span {
+    color: #4E7FFF;
+    font-family: "Inter-SemiBold";
+    font-size: 1.8rem;
+    font-style: normal;
+    line-height: 2.56rem;
+    margin-right: 0.8rem;
+}
+
+@media(max-width:912px) {
+   .about{
+    gap: 3rem;
+   }
+}
+@media(max-width:500px) {
+   .about{
+    grid-template-columns: 1fr;
+    /* gap: 3rem; */
+   }
+}

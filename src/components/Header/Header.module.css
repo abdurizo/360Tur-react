@@ -1,0 +1,197 @@
+.virtual {
+    cursor: pointer;
+    width: 5rem;
+    height: 5rem;
+    background: #000;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    z-index: 9;
+}
+
+.a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+   background: rgba(2, 5, 8, 0.40);
+}
+
+.root {
+    height: 100vh;
+    position: relative;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    /* overflow: hidden; */
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* filter: brightness(60%); */
+    /* padding-bottom: 56.25%; */
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    background: transparent;
+    background-image: linear-gradient(180deg, #040520 0%, rgba(4, 5, 32, 0.00) 15.46%),
+        linear-gradient(180deg, rgba(4, 5, 32, 0.00) 81.67%, #010228 100%);
+}
+
+/*не трогать */
+/* .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} */
+
+/*не трогать */
+
+/* не тррогать */
+.background::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    background-image: linear-gradient(180deg, #040520 0%, rgba(4, 5, 32, 0.00) 15.46%),
+        linear-gradient(180deg, rgba(4, 5, 32, 0.00) 81.67%, #010228 100%);
+}
+
+/* .background canvas {
+    width: 100% !important;
+    height: 100% !important;
+} */
+
+.menu {
+    border-radius: 2.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgba(2, 5, 8, 0.25);
+    backdrop-filter: blur(7.5px);
+    padding: 1rem 1.4rem;
+    display: flex;
+    align-items: center;
+    max-width: 85.6rem;
+    position: fixed;
+    top: 5rem;
+    z-index: 999;
+}
+
+.nav {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: "SplineSans-Medium";
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.84rem;
+    text-transform: capitalize;
+    display: flex;
+    gap: 4.2rem;
+    margin-left: 3rem;
+    margin-right: 7rem;
+}
+
+.language {
+    color: #fff;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 2rem;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 0.5rem 1rem;
+
+}
+
+.language span {
+    color: #C5C5C5;
+    font-family: "SplineSans-SemiBold";
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2rem;
+    text-transform: capitalize;
+}
+
+.arrow-wrapper {
+    display: flex;
+    flex-direction: column;
+    animation: shake 2s infinite;
+    cursor: pointer;
+}
+
+.first-arrow {
+    animation: shakeFirstArrow 2s .5s infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateY(0)
+    }
+
+    10% {
+        transform: translateY(1.5rem)
+    }
+
+    20% {
+        transform: translateY(0)
+    }
+
+    100% {
+        transform: translateY(0)
+    }
+}
+
+@keyframes shakeFirstArrow {
+    0% {
+        transform: translateY(0)
+    }
+
+    6% {
+        transform: translateY(.7rem)
+    }
+
+    11% {
+        transform: translateY(0)
+    }
+
+    17% {
+        transform: translateY(.7rem)
+    }
+
+    24% {
+        transform: translateY(0)
+    }
+
+    100% {
+        transform: translateY(0)
+    }
+
+}

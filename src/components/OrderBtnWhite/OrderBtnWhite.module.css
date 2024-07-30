@@ -1,0 +1,36 @@
+.wrap {
+    border-radius: 1.2rem;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.10);
+    padding: 1rem;
+    display: inline-block;
+}
+
+.btn {
+    color: #000;
+    font-family: 'Inter-SemiBold';
+    font-size: 1.8rem;
+    font-style: normal;
+    line-height: 2.16rem;
+    letter-spacing: -0.036rem;
+    border-radius: 1.2rem;
+    background: linear-gradient(103deg, #FFF 0%, #A8B6FF 100%);
+    padding: 1.5rem 8.5rem;
+    display: flex;
+    align-items: center;
+    transform: .5s;
+}
+
+.btn:hover {
+    background: linear-gradient(261deg, #FFF -22.53%, #A8B6FF 116.54%);
+    transform: .5s;
+}
+
+.btn:hover .arrow {
+    transform: translateX(6rem);
+    transition: .5s;
+}
+
+.arrow {
+    margin-left: 0.7rem;
+}

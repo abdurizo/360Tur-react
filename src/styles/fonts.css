@@ -1,0 +1,55 @@
+@font-face {
+    src: url("../assets/fonts/static/SplineSans-Medium.ttf");
+    font-family: "SplineSans-Medium";
+}
+
+@font-face {
+    src: url("../assets/fonts/static/SplineSans-Regular.ttf");
+    font-family: "SplineSans-Regular";
+}
+@font-face {
+    src: url("../assets/fonts/static/SplineSans-Bold.ttf");
+    font-family: "SplineSans-Bold";
+}
+@font-face {
+    src: url("../assets/fonts/static/SplineSans-SemiBold.ttf");
+    font-family: "SplineSans-SemiBold";
+}
+
+
+@font-face {
+    src: url("../assets/fonts/Montserrat/Montserrat-Bold.ttf");
+    font-family: "Montserrat-Bold";
+}
+@font-face {
+    src: url("../assets/fonts/Montserrat/Montserrat-SemiBold.ttf");
+    font-family: "Montserrat-SemiBold";
+}
+@font-face {
+    src: url("../assets/fonts/Montserrat/Montserrat-Regular.ttf");
+    font-family: "Montserrat-Regular";
+}
+
+
+@font-face {
+    src: url("../assets/fonts/Inter/Inter-Regular.ttf");
+    font-family: "Inter-Regular";
+}
+@font-face {
+    src: url("../assets/fonts/Inter/Inter-SemiBold.ttf");
+    font-family: "Inter-SemiBold";
+}
+@font-face {
+    src: url("../assets/fonts/Inter/Inter-Bold.ttf");
+    font-family: "Inter-Bold";
+}
+
+
+@font-face {
+    src: url("../assets/fonts/Work_Sans/WorkSans-SemiBold.ttf");
+    font-family: "WorkSans-SemiBold";
+}
+@font-face {
+    src: url("../assets/fonts/Work_Sans/WorkSans-Medium.ttf");
+    font-family: "WorkSans-Medium";
+}
